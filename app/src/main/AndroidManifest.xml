@@ -10,14 +10,21 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Activities.MainActivity">
             <intent-filter>
+                <action android:name="com.coderefer.androidsplashscreenexample.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.TakePhotoActivity" />
+        <activity android:name=".Activities.PhotoActivity" />
+        <activity android:name=".Activities.DatabaseActivity" />
+        <activity android:name=".Activities.StartActivity">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.TakePhotoActivity" />
-        <activity android:name=".Activities.PhotoActivity" />
-        <activity android:name=".Activities.DatabaseActivity"></activity>
     </application>
 
 </manifest>

@@ -3,4 +3,7 @@
     <string name="load_button">Зробити фото</string>
     <string name="photo_button">Завантажити фото</string>
     <string name="database_button">Переглянути базу</string>
+    <string name="exit_button">Вихід</string>
+    <string name="open_button">Відкрити фото</string>
+    <string name="recognition_button">Зареєстрвати</string>
 </resources>
